@@ -21,7 +21,7 @@ Citation
       }
 
 
-<img src="Architecture.jpg"/>
+<img src="Architecture.png"/>
 
 Figure 1. (a) Overall architecture of the proposed Dual-Modal Mixture-of-Experts Attention U-Net (DMoE-AttU-Net). The SE attention module integrated within each CNN expert is detailed in Figure 2. 𝜓1 and 𝜓1 denote attention maps used for feature modulation in the model.
 
