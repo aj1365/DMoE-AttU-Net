@@ -16,8 +16,8 @@
 ## 🖼️ Framework Overview
 
 <p align="center">
-  <img src="Architecture.png" width="32%"/>
-  <img src="arch2.jpg" width="32%"/>
+  <img src="Architecture.png" width="70%"/>
+  <img src="arch2.jpg" width="50%"/>
   <img src="results.jpg" width="32%"/>
 </p>
 
