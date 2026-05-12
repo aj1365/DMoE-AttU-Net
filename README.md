@@ -4,11 +4,6 @@
 
 ### 📄 Official Repository for the DMoE-AttU-Net Framework
 
-[![Paper](https://img.shields.io/badge/Paper-Remote%20Sensing-blue?style=for-the-badge)]()
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)]()
-[![Python](https://img.shields.io/badge/Python-3.10+-yellow?style=for-the-badge)]()
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange?style=for-the-badge)]()
-
 </div>
 
 ---
@@ -32,7 +27,7 @@
 # 📚🔗 Journal Information & Paper Link
 
 - 🏛️ **Journal:** [Remote Sensing](https://www.mdpi.com/journal/remotesensing)
-- 📰 **Section:** [Remote Sensing Perspective]([https://www.mdpi.com/journal/remotesensing](https://www.mdpi.com/journal/remotesensing/sections/remote_sensing_letter))  
+- 📰 **Section:** [Remote Sensing Perspective](https://www.mdpi.com/journal/remotesensing/sections/remote_sensing_letter)  
 - 📅 **Year:** 2026  
 - 🔗 **DOI:** https://www.mdpi.com/2072-4292/18/10/1508 
 
