@@ -31,10 +31,19 @@
 
 # 📚🔗 Journal Information & Paper Link
 
-- 🏛️ **Journal:** Remote Sensing  
+- 🏛️ **Journal:** [Remote Sensing](https://www.mdpi.com/journal/remotesensing)
+- 📰 **Section:** [Remote Sensing Perspective]([https://www.mdpi.com/journal/remotesensing](https://www.mdpi.com/journal/remotesensing/sections/remote_sensing_letter))  
 - 📅 **Year:** 2026  
-- 📖 **Volume:** 18  
 - 🔗 **DOI:** https://www.mdpi.com/2072-4292/18/10/1508 
+
+---
+
+# 👨‍💻 Authors
+
+- 👤 [Seyed Ehsan Khankeshizadeh](https://www.researchgate.net/profile/Ehsan-Khankeshizadeh?ev=hdr_xprf)  
+- 👤 [Ali Mohammadzadeh](researchgate.net/profile/Ali-Mohammadzadeh-7/research?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJwcm9maWxlIiwicHJldmlvdXNQYWdlIjoicHJvZmlsZSJ9fQ) 
+- 👤 [Ali Jamali](https://www.researchgate.net/profile/Ali-Jamali)  
+- 👤 [Sadegh Jamali](https://www.researchgate.net/profile/Sadegh-Jamali)  
 
 ---
 # 📌 Abstract
@@ -72,18 +81,28 @@ repository: https://www.iro.umontreal.ca/~mignotte/ResearchMaterial/ (last acces
 
 # 📊 Experimental Results
 
+<p align="center">
+  <img src="MainResuts.png" width="85%"/>
+</p>
 
+<p align="center">
+</p>
 
+<p align="center">
+  <img src="ComResults.png" width="85%"/>
+</p>
 
-# 👨‍💻 Authors
+<p align="center">
+</p>
 
-- 👤 [Seyed Ehsan Khankeshizadeh](https://www.researchgate.net/profile/Ehsan-Khankeshizadeh?ev=hdr_xprf)  
-- 👤 [Ali Mohammadzadeh](researchgate.net/profile/Ali-Mohammadzadeh-7/research?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJwcm9maWxlIiwicHJldmlvdXNQYWdlIjoicHJvZmlsZSJ9fQ) 
-- 👤 [Ali Jamali](https://www.researchgate.net/profile/Ali-Jamali)  
-- 👤 [Sadegh Jamali](https://www.researchgate.net/profile/Sadegh-Jamali)  
+<p align="center">
+  <img src="AbbResults.png" width="85%"/>
+</p>
+
+<p align="center">
+</p>
 
 ---
-
 # 📖 Citation
 
 If you find this repository useful in your research, please consider citing our paper:
