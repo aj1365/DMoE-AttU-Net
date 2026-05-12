@@ -1,41 +1,101 @@
-# A Dual-Modal Mixture-of-Experts Attention U-Net (DMoE-AttU-Net) for Change Detection Using Heterogeneous Optical and SAR Remote Sensing Images
+# 🌍 A Dual-Modal Mixture-of-Experts Attention U-Net (DMoE-AttU-Net) for Change Detection Using Heterogeneous Optical and SAR Remote Sensing Images
 
-[Ehsan Khankeshizadeh](https://www.researchgate.net/profile/Ehsan-Khankeshizadeh?ev=hdr_xprf), Ali Mohammadzadeh, [Ali Jamali](https://www.researchgate.net/profile/Ali-Jamali), and Sadegh Jamali
+<div align="center">
+
+### 📄 Official Repository for the DMoE-AttU-Net Framework
+
+[![Paper](https://img.shields.io/badge/Paper-Remote%20Sensing-blue?style=for-the-badge)]()
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)]()
+[![Python](https://img.shields.io/badge/Python-3.10+-yellow?style=for-the-badge)]()
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange?style=for-the-badge)]()
+
+</div>
+
+---
+
+## 🖼️ Framework Overview
+
+<p align="center">
+  <img src="Architecture.png" width="32%"/>
+  <img src="arch2.jpg" width="32%"/>
+  <img src="results.jpg" width="32%"/>
+</p>
+
+<p align="center">
+<b>Figure 1.</b> Overall architecture of the proposed DMoE-AttU-Net framework.  
+<b>Figure 2.</b> Squeeze-and-Excitation (SE) attention module used in the SAR experts.  
+<b>Figure 3.</b> Visual comparison of change detection results across benchmark datasets.
+</p>
+
+---
+
+# 📚🔗 Journal Information & Paper Link
+
+- 🏛️ **Journal:** Remote Sensing  
+- 📅 **Year:** 2026  
+- 📖 **Volume:** 18  
+- 🔗 **DOI:** https://www.mdpi.com/2072-4292/18/10/1508 
+
+---
+# 📌 Abstract
+
+Binary Change Detection (BCD) using heterogeneous optical and SAR imagery remains challenging due to modality-specific noise characteristics and ineffective feature fusion strategies. Existing approaches often struggle with suppressing SAR speckle noise while accurately preserving fine structural boundaries.
+
+To address these limitations, we propose a novel deep learning architecture named **Dual-Modal Mixture-of-Experts Attention U-Net (DMoE-AttU-Net)**. The proposed framework incorporates:
+
+- 🔹 Dual-stream encoders for modality-specific feature extraction  
+- 🔹 A Mixture-of-Experts (MoE) module with a dynamic gating mechanism in the SAR branch  
+- 🔹 Squeeze-and-Excitation (SE) and spatial attention modules for adaptive feature refinement  
+- 🔹 Hierarchical skip connections for enhanced multi-scale feature fusion  
+
+Unlike conventional multimodal change detection methods that apply uniform fusion strategies, the proposed architecture introduces a **modality-aware fusion mechanism** specifically designed for SAR imagery. This enables adaptive suppression of speckle noise while preserving complementary optical information.
+
+Extensive experiments conducted on three heterogeneous optical–SAR benchmark datasets demonstrate that the proposed method achieves superior performance with:
+
+- ✅ **Mean IoU:** 0.855  
+- ✅ **Kappa Coefficient:** 0.836  
+
+The results confirm improved spatial consistency, enhanced boundary localization, and reduced noise-induced artifacts compared to existing state-of-the-art approaches.
+
+---
+
+# 🛰️ Dataset information
+
+All the datasets analyzed during the current study are part of the
+benchmark multi-modal change detection dataset. The heterogeneous California data set is kindly
+available online at http address https://sites.google.com/view/luppino/data (last accessed on
+5 May 2025). The Gloucester I and II are also publicly accessible via the following
+repository: https://www.iro.umontreal.ca/~mignotte/ResearchMaterial/ (last accessed on 5 May
+2025).
+
+---
+
+# 📊 Experimental Results
 
 
-Citation
----------------------
-
-**Please kindly cite the paper if this code is useful and helpful for your research.**
-
-      @article{Ehsan2026,
-        title = {A Dual-Modal Mixture-of-Experts Attention U-Net (DMoE-AttU-Net) for Change Detection Using Heterogeneous Optical and SAR Remote Sensing Images},
-        author = {Khankeshizadeh, Seyed Ehsan and Mohammadzadeh, Ali and Jamali, Ali and Jamali, Sadegh },
-        journal = {Remote Sensing},
-        volume = {18},
-        pages = {},
-        year = {2026},
-        issn = {2072-4292},
-        doi = {https://doi.org/10.3390/rs18101508},
-        url = {https://www.mdpi.com/2072-4292/18/10/1508}
-      }
 
 
-<img src="Architecture.png"/>
+# 👨‍💻 Authors
 
-### Figure 1. (a) Overall architecture of the proposed Dual-Modal Mixture-of-Experts Attention U-Net (DMoE-AttU-Net). The SE attention module integrated within each CNN expert is detailed in Figure 2. 𝜓1 and 𝜓1 denote attention maps used for feature modulation in the model.
+- 👤 [Seyed Ehsan Khankeshizadeh](https://www.researchgate.net/profile/Ehsan-Khankeshizadeh?ev=hdr_xprf)  
+- 👤 [Ali Mohammadzadeh](researchgate.net/profile/Ali-Mohammadzadeh-7/research?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJwcm9maWxlIiwicHJldmlvdXNQYWdlIjoicHJvZmlsZSJ9fQ) 
+- 👤 [Ali Jamali](https://www.researchgate.net/profile/Ali-Jamali)  
+- 👤 [Sadegh Jamali](https://www.researchgate.net/profile/Sadegh-Jamali)  
 
+---
 
-<img src="arch2.jpg"/>
+# 📖 Citation
 
-### Figure 2. Schematic of the squeeze-and-excitation (SE) channel attention module used within each CNN expert in the SAR branch of the proposed architecture (see Figure 1).
+If you find this repository useful in your research, please consider citing our paper:
 
-<img src="results.jpg"/>
-
-### Figure 3. Visual comparisons of the change maps obtained by different DL models on the three datasets. green is used to represent true positives (TP), while black represents true negatives (TN). Red signifies false positives (FP) and blue indicates false negatives (FN). The dotted-line boxes highlight selected regions for detailed comparison, where the proposed DMoE-AttU-Net demonstrates lower error rates and better preservation of change regions.
-
-
-## License
-
-Copyright (c) 2026 Ali Jamali. Released under the MIT License. See [LICENSE](LICENSE) for details.
-
+```bibtex
+@article{Ehsan2026,
+  title={A Dual-Modal Mixture-of-Experts Attention U-Net (DMoE-AttU-Net) for Change Detection Using Heterogeneous Optical and SAR Remote Sensing Images},
+  author={Khankeshizadeh, Seyed Ehsan and Mohammadzadeh, Ali and Jamali, Ali and Jamali, Sadegh},
+  journal={Remote Sensing},
+  volume={18},
+  pages={1508},
+  year={2026},
+  publisher={MDPI},
+  doi={10.3390/rs18101508}
+}
